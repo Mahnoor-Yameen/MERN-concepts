@@ -1,0 +1,41 @@
+-----------------------------------------------------------IMPORTING 
+
+import {storage} from "the path firebaseconfig file"
+import {ref, uploadBytes, getDownloadURL } from "firebase/storage"
+
+
+-----------------------------------------------------------STEP 2   INSIDE FORM SUBMIT FUNCTION
+
+image PC se firebase main bheji
+firebase ne wo pic apny pass save ki
+saved URL ko return main hamary pass bheja
+ab jab bhi hum us link pe click krenyy toh wo pic ajayegi
+
+now in Database, we will send this url 
+this url will be used for our pics setting
+
+
+
+-----------------------------
+const SingleImg = ref(Storage, `images/ProductThumbnails/${ProductThumbnail.name}`)
+    uploadBytes(SingleImg, ProductThumbnail )
+    .then((SuccessMetaData)=>{getDownloadURL(SucessMetaData.ref)
+    .then((SuccessURL)=> {
+      
+      const payload = {
+        ProductName,
+        ProductDescription,
+        ProductPrice,
+        ProductCategory,
+        ProductRating,
+        ProductThumbnail: url,
+      }
+    })  //then 
+  }) //then
+
+  }
+------------------------------------
+const ref, 
+ uploadBytes,  meta data use hoga from then of uploadbytes   FUNCTION WITH THEN
+getDownloadURL ko metaData.ref diya as a parameter and usmain then se URL mil jayega in sucess     FUNCTION WITH THEN
+now we can use this url

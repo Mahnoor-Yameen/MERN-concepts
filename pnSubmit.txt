@@ -1,0 +1,10 @@
+jab onsubmit lagao gi toh jis function pe wo jayega wahan parameter main e de dena us se yeh hota hai k us form main se sari cheezain us e main chali jati hain 
+
+    <form action="" onSubmit={currentRole} >
+
+
+ const currentRole = (e) =>{
+    e.preventDefault();
+
+
+or phir e.preventDefault krdena taky default null values na jayen

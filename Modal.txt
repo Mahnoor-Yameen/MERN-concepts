@@ -1,0 +1,28 @@
+pehly button, usestate, modal import krwana hoga
+
+phir handleclose and open wali coding copy krlena from react bootstrap
+
+phir button wala code and modal wala code copy paste krdo. DONE
+
+ <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+  
+      >
+
+
+is se bahar click krny se modal nh gayab hoga
+and keyboard false se keyboard enter press kr k bhi nh kr sakty
+
+
+ <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+centered
+  
+      >
+yeh centered likhny se hamara modal center main display hota ha

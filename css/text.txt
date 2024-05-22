@@ -1,0 +1,13 @@
+text-decoration: dotted
+text-decoration: over-line    yeh acha hai uper line ajati
+text-decoration: line-through
+text-decoration: none
+text-decoration: double
+text-decoration: underline    nechy line ajati
+text-decoration: solid
+
+text-align: center/ start / end / justify / left / right
+
+text-transform: lowercase/ uppercase
+
+text-shadow

@@ -1,0 +1,3 @@
+COMMENT:
+•	single line //
+•	multi line /*    */

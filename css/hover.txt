@@ -1,0 +1,12 @@
+element : hover  {
+
+background-color : yellow ;
+
+}
+
+matlab jab mouse us element per jayega toh backgound color yellow hojayega us element ka
+
+a:hover{}
+a:visited{}
+a:link{}
+a:active{}

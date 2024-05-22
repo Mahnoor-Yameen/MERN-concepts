@@ -1,0 +1,25 @@
+-----------------------------------------------by ID name TESTING
+
+by id, name wala:
+
+api/route jo bhi ho?CategoryName=directname
+
+
+--------------------------------------------REQ BODY SYNTAX
+
+
+
+{
+  "CategoryName": "chairs",
+  "CategorySVG": "not now"
+}
+
+basic object banta ha bus dono taraf aapny uper comma laganay hoty
+
+
+-----------------------------------------------------------------------------Delete
+
+body se data diya
+
+--------------------------------------------------------------------UPDATE
+

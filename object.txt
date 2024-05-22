@@ -1,0 +1,6 @@
+const obj = {
+key: value 
+}
+
+
+jahan use krna ho wahan pe obj [ key ]  dena and value mil jayegi

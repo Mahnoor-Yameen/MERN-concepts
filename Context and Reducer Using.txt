@@ -1,0 +1,10 @@
+-----------------------------------------------------------------   USING OF CONTEXT
+
+
+1) import krwaty hain context ka name... context.jsx ka path de kr 
+import { logincontext } from './GlobalContext/context'
+2)import krwalo useContext hook from react
+3) ab bata rahy k kon konsi values chahiye and = useContext(context ka name)
+const {state, dispatch}=useContext(logincontext)
+
+-----------------------------------------------------------------------------

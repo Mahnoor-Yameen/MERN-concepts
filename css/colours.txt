@@ -1,0 +1,7 @@
+colours hum in tareeko se de skty:
+
+by colour name   aqua
+RGB
+RGB-a    a = opacity ( 0-1 ) (0.7 best)
+hexa decimal
+

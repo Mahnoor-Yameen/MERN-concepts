@@ -1,0 +1,28 @@
+html main attributes hoty hain 
+css main properties hoti hain
+
+TARGET: id / class / element
+
+                                                               CSS TYPES:
+-----------------INLINE:
+jo tag hota ha usky ander hi css de dety.
+tag k ander:  style = " propertyNAME : selection ; "
+
+----------------INTERNAL:
+
+title tag k nechy
+head tag k ander
+style tag banao or class/id/element ko target kr k css de do
+
+
+----------------EXTERNAL:
+
+title tag k nechy
+head tag k ander 
+link tag lagega
+
+    <link rel="stylesheet" href="file.css">
+
+----------------------------SELECTOR-
+
+* { yeh ek universal selectors hai }

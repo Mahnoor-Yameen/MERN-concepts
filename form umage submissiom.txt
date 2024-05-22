@@ -1,0 +1,32 @@
+          
+--------------------------------------------------------------THUMBNAIL-------------------------------------------
+
+      <input className="form-control" onChange={(e) => setProductThumbnail(e.target.files[0])} type="file" id="thumbnail" />
+
+yeh milega apko e.target.files[0] pe:
+files: FileList
+
+0: 
+
+File lastModified: 
+1712616585053
+
+lastModifiedDate: 
+Tue Apr 09 2024 03:49:45 GMT+0500 (Pakistan Standard Time) {}
+
+name: 
+"Screenshot (6).png"
+
+size: 
+225201
+
+type: 
+"image/png"
+
+webkitRelativePath: 
+""
+
+---------------------------------------------------------------------------------FACT
+
+images k input tags ko value nh di jati
+for image array: plus ka sign banaya hua ha, uspe click krengy toh one pic dhalty jayengy, agar double click kremgy toh pic delete hojayegi

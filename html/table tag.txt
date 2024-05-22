@@ -1,0 +1,29 @@
+tr = row = height 
+td = column = width
+
+table tag   >>   tr    >>    td
+
+cell:
+ek individual box cell kehlata
+
+cell padding: cell k ander ki space barhegi
+cell spacing: cell k bahar ki space barhegi
+
+cellmerge: hamesha td pe lagega
+
+colspan = "n"
+rowspan = "n"
+
+
+NOTES:
+1. no of tds ko hamain same rakhna chahiye
+2. merging k liye hum attribute sirf td main dalengy
+3. td ki jagah agar hum th krengytr k ander toh wo row k column BOLD ayengy
+4. navbar k liye humny th k ander hi logo pic and other things dhalin
+5. we have thead  tbody  tfoot
+6. table k ander hr tr main column same rakhlo
+7. table k ander tr banta hai jis se ek row create hoti hai, tr k ander td aty.
+8. us row main columns bananay k liye hum jitny columns banana chahty hain utny hi td bana lety hain.
+9. table attribute: border = "n",  width = "100%", cellspacong = "20", cellpadding = "20"
+10. 2 columns ko hum merge krny k liye colspan likhty hain colspan = "n", is se jis td main humny yeh attribute banaya hoga sirf usky agay k utny (n) merge hongy
+

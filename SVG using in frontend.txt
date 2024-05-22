@@ -1,0 +1,18 @@
+
+
+npm i react-svg 
+import { ReactSVG } from 'react-svg';
+--------------------------------------------------------
+
+
+
+                        {value.CategorySVG && (
+                        <ReactSVG
+                          src={`data:image/svg+xml;utf8,${encodeURIComponent(value.CategorySVG)}`}
+                          className="svg-container"
+                          />
+                      )}
+                    
+
+
+

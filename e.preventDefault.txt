@@ -1,0 +1,7 @@
+yeh lagta ha jab form submit button press kr kfunction run krwaty hain toh us function main yeh likhty hain 
+
+e.preventDefault() ka use hota hai event ka default behavior ko rokne ke liye. Jab koi form submit hoti hai, toh normally page refresh hoti hai, ya phir form data ko server par bheja jata hai (agar JavaScript se form submit nahi kiya gaya hai). Lekin kai bar hum chahte hain ke form submit hone par page refresh na ho ya phir kuch aur action perform ho. Isliye e.preventDefault() ka use kiya jata hai. Ye function page par default action ko cancel kar deta hai, jisse page refresh ya form submission nahi hoti. Iske baad hum JavaScript mein aur jo bhi action chahe wo perform kar sakte hain, jaise ki form data ko validate karna ya phir server par bhejna.
+
+
+1. page refresh rokna
+2. form data ko url pe bhejny se rokna taky jo bhi kaam hum krwana chahty hain pehly wo krwa lain

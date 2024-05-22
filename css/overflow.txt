@@ -1,0 +1,6 @@
+overflow : visible;    // iska matlab agar humny predefined area diya hua hai container ko and text jo hai ho us container se ziada hai toh extra text container se bahar chala jayega and nazar bhi ayega
+
+overflow : hidden ;  //bahar wala text hide hojayega
+
+overflow: scroll;   //scrolbar lag jayega 
+overflow: auto     //scroll lagega only if needed

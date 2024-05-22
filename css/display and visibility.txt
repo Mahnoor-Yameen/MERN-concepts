@@ -1,0 +1,11 @@
+display: none ;    element completely removed    (for responsiveness)
+display: block ;
+display: inline ;
+display: inline-block;    element itself inline ban jayega but you can apply height and width values
+
+
+
+-----------------------------------------------VISIBILITY
+
+visibility: visible;
+visibility: hidden ;   element apni jagah lega even if it is hidden 

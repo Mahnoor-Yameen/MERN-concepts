@@ -1,0 +1,8 @@
+npm install cors
+
+
+
+
+const corsVariable = require("cors");                    //cors ko mungwaliya apny variable main        
+app.use(express.json());                         //json stringify k liye
+app.use(corsVariable());                                 // app main cors ko use krwaya

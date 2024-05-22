@@ -1,0 +1,42 @@
+---------------------------------------------------------------------IMPORTING
+
+const {Schema, model} = require ('mongoose')     
+
+------------------------------------------------------------SCHEMA SYNTAX
+// const varname = new Schema ({ name: {}})  round obj obj
+
+
+-----------------------------------------------------------------SCHEMA DEFINING
+// yahan schema banaya 
+const CategorySchema = new Schema (
+    {
+
+        CategoryName : {
+            type: String,
+            unique: true,
+            required: true
+        },
+        CategorySVG : {
+            type: String,
+            required: true
+        }
+    }
+)
+
+// uper just type and schema banaya tha 
+// ab hum ek model banayengy and export krwa dengy us model ko
+
+
+-----------------------------------------------------------------------MODEL CREATION
+
+// const varName = model ('category', SchemaName)
+// model ban gaya category name ka jo k category schema k according data leta
+
+const ModelOfCategory = model ('category', CategorySchema)
+
+
+------------------------------------------------------------------------MODEL EXPORTING 
+
+// now we will export it all
+
+module.exports = {ModelOfCategory}

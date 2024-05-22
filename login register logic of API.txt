@@ -1,0 +1,29 @@
+
+login and sugnup both are post api
+-----------------------------------------------------------------------------------------------------REGISTER
+username, email, password liya user se
+existance check ki by email
+user create kiya username, email, and password de kr,      password humny hash kr k diya    hash ( password,  key )  
+
+
+----------------------------------------------------------------------------------------------------LOGIN
+
+
+------------------------------------------STEP ! HASHING
+email, password liya
+email se user find kiya
+jab user mil gaya toh
+compare kiya user password and registered password ko by compare function (key deny ki zrorat nh hoti compare main)
+jab passwords match hogaye toh
+ek const main sara data dhala email, id, profilepic, username, joining, role
+password nh dhala humny, bus uper compare kiya tha k password match kr raha hai ya nahi
+
+
+-----------------------------------------STEP 2 TOKENING
+
+hum ek token bana rahy by using sign function                       const token = sign(User, process.env.JWT_SECRET)
+ab yeh token response de diya
+
+
+----------------------------------------------------
+

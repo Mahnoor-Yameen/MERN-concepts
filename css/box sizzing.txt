@@ -1,0 +1,8 @@
+box sizing main box main boxes hoty which means
+
+
+
+element   padding   border    margin
+
+width + padding + border = actual width of the element
+height + padding + border = actual height of the element

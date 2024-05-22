@@ -1,0 +1,9 @@
+ATTRIBUTES:
+Wo chez ko hum tag k ander likhty hain wo attribute kehlati <p attribute >  </p>
+1.	color
+2.	height
+3.	width
+4.	alt
+5.	src
+6.	size
+if something is older than html5 then it will appear red in coding just like font tag.

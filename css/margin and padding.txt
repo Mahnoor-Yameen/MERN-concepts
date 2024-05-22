@@ -1,0 +1,11 @@
+margin: bahar ka hota
+padding: ander ki hoti
+
+padding : T B R L ; in px
+
+margin-top : in px ;
+margin-bottom: in px ;
+margin-left: in px ;
+margin-right: in px ;
+
+margin:  one for all sides;

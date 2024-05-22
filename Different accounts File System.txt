@@ -1,0 +1,16 @@
+Src k ander folders banaty jao jaisy:
+
+Admin
+Guest
+User
+
+har folder ki by default root file ka name hoga index.jsx
+
+file k ander jo rfc main name hoga wo Admin, Guest, User krdena taky App.jsx main import krwaty waqt sab index k name se na rahain or mix na hoon
+
+
+har Folder (Admin, Guest, User) ki index file main ROUTING k routes and route diye jaty hain 
+phir hum ek route banaty /  jo k home page pe khulyga
+
+
+and pages main home page banega for each acoount's folder.

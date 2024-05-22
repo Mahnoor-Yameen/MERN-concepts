@@ -1,0 +1,15 @@
+background main hum color de skty hain and image bhi de skty hain
+
+background-image: url(https://ambervet.com/wp-content/uploads/2015/06/rabbit_on_pink.jpg)
+jo bhi pic lagani ho uska ( copy image address ) kr k bracket k ander dhal do
+
+we have other things also:
+
+background-size: contain ; // contain ka matlab us jagah pe image apny actual size ki hi ayegi agar jagah bach itoh image repeat hoti jayegi
+background-size: cover ;   // us size main picture ko bara kr k dhal dety, ismain pixel phat skty hain
+
+background-repeat: no-repeat
+background-repeat: repeat
+background-repeat: repeat-y
+background-repeat: repeat-x
+

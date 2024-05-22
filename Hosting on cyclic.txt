@@ -1,0 +1,7 @@
+HOSTING ON CYCLIC:
+
+AppRoute on frontend
+backened main path set up
+make a frontend named folder and then place the dist in that folder
+github pe post krdo without node modules
+ go on cyclic and simply place that github repo there and you are done

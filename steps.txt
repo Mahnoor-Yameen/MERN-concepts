@@ -1,0 +1,28 @@
+backend pe register chala with password hashing
+user create hogya
+
+ab login main user ne email password diya 
+email se user ko dhunda and password ko compare kiya toh hamara hashing complete hogaya
+jab hashing complete hogaya to user ki details ka token banaya gaya
+wo token frontend pe bheja
+
+
+ab front end pe wo ENCODED token agaya 
+
+humny ek context banaya jismain se login ka state and dispatch bheja ha in all web
+us reducer main token hai sirf jo k initially ya toh undefined hai ya jo hamary pass cookies main hoga wo hai
+undefined se guest ui khulwani and cookies wala agar user hai toh initially encoded token ajayega login_state main
+ek useEffect lagaya hua ha jo k hamara token change hony pe run hoga, wo cookies main token ki value set krwayega state wali
+
+ab humny ENCODED token ko login_State k token main bhej diya by using login_dispatch 
+jaisy hi login_state.token change hua toh hamara useEffect chala and cookies main token ki value change kr k login_state.token wali rakhdi
+
+ab guest, user, admin: in main se ek component render krwana hai token ko decode kr k
+token decode hoga toh ya toh user hoga ya phir admin, initially UI guest ki thi and logout k bad token null hojata
+
+token decode kiya in App.jsx main by decoding function
+current k name se function banaya jo k return k ander bhi de diya as a component
+
+current function khud bhi ek function run kr raha AppSelection wala jisko role decoded token se de rahy and then wahan se app select ho kr arahi k konsi chalani ha user/admin/guest
+
+agar token hoga toh token se role milega wrna undefined de diya jayega

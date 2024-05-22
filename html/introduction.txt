@@ -1,0 +1,35 @@
+VCS:
+Version control system. Hum code cloud pe rakhengy for which we have options:
+•	Github  (vcs 2)
+•	Google drive
+•	Etc
+Vcs ki madad se hum new features dhal skty apny purany codes main. Hum purany and new versions swap kr sakty.
+Cli = command line interface
+Start of web = index.html
+Markup = opening + closing tag
+Hypertext = meaningfull text
+WEBSITE:
+1.	Web 1.0 (static wikipedia)
+2.	Web 2.0 (dynamic input output) (info lena dena)
+3.	www > organization jo k websites k liye rules deti hai
+commit means comment
+extension means tool
+LEVELS OF TAGS:
+1.	inline
+2.	block
+TYPES OF TAGS:
+1.	self closing
+2.	elements
+
+ATTRIBUTES:
+Wo chez ko hum tag k ander likhty hain wo attribute kehlati <p attribute >  </p>
+1.	color
+2.	height
+3.	width
+4.	alt
+5.	src
+6.	size
+if something is older than html5 then it will appear red in coding just like font tag.
+
+TABLE TAG:
+

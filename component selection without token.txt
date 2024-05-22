@@ -1,0 +1,35 @@
+import React, { useState } from 'react'
+import Guest from "./Guest"
+import User from './User'
+import Admin from './Admin'
+
+export default function App() {
+  const AvailableRoles = {
+    g: Guest,
+    a: Admin,
+    u: User,
+  }
+
+const [Role, SetRole] = useState("")
+const [a,b] = useState(false)
+
+  const CurrentRole = (e) => {
+    e.preventDefault();
+    b(true);
+
+
+    
+  }
+const Selected = AvailableRoles[Role]
+console.log(Selected)
+  return (
+    <>
+      {!a && 
+      <form action="" onSubmit={CurrentRole} >
+        <input type="text" value={Role} onChange={(e=>SetRole(e.target.value))}  />
+        <button type="submit" >SUBMIT</button>
+      </form>}
+{a  && Selected && <Selected/>}
+    </>
+  )
+}

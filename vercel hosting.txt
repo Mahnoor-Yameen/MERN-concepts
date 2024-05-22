@@ -1,0 +1,34 @@
+vercel pe hosting aisy hoti hai k ;
+
+don't send node modules in the github
+frontend AppRoute main backend deployed link dhalo
+backend cors origin line main frontend deployed link dhalo
+
+
+
+-----------------------------------------------------------BACKEND
+
+make a file vercel.json and then paste it:
+
+{
+    "version":2,
+    "builds":[
+        {"src": "*.js","use":"@vercel/node"}
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ]
+}
+
+
+------------------------------------------INDEX file main BACKEND
+app.use(cors(
+  {
+    origin:[" frontend deplayed link"],
+    methods:["POST", "GET"],
+    credentials:true
+  }
+))

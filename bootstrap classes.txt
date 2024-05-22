@@ -1,0 +1,32 @@
+
+---------------------------------------------------------------TO WORK BOOTSTRAP:
+npm install bootstrap react-bootstrap
+
+go to google react bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';    yeh wala code copy karo, paste it at main.jsx
+
+
+
+-------------------------------------------------------------------WIDTH:
+
+
+w-full                          width puri le leta
+
+-----------------------------------------------------------------------USEFUL
+
+gap-2         flex k items k bech main gap k liye
+
+--------------------------------------------------------------------------GRID:
+parent element:  row
+
+child elements:  
+
+extra small :  0 se 550   .col-
+small:   550 se bari and 750 se choti     .col-sm-
+medium:   750 se bari and 1000 se choti     .col-md-
+large: 1000 se bari and 1200 se choti     .col-lg-
+extra large: 1200 se bari till infinity     .col-xl-
+
+-----------------------------------------------------------------------image
+
+img-fluid se wo image apny parent tag k ander ander ajati ha

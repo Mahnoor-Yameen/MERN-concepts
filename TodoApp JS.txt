@@ -1,0 +1,49 @@
+HTML:
+1.	Bootstrap lagado
+2.	Ek div lagaya class contaner k sath
+3.	(BS) k input group se dusra wala div copy kr k (2) main laga dain [input tag main sirf type, class, placeholder hoga baki attributes hata dain} span se id hata do.
+4.	Input placeholder = “write todo”     id=”todoinput”   
+5.	Span ko class do (btn btn-dark) and write “add todo” in span.
+6.	(2) waly div ko my-5 py-5 dedo which means margin in y-axis =  and padding in y-axis=5.
+7.	DOM pe jo bhi kam krengy or wo chez agar dynamically chal rahi ho toh usko pehly hi bana kr rakh do pura final stage tak.
+8.	BS se ek sample list utha kr (2) div main after (input div) laga do.
+9.	li ko classes de do ( d-flex justify-content-between align-items-center)
+10.	ab is li main span bnao (an item) and button banao (mark as done) with class (btn btn-dark)
+11.	ab sirf is li ko rakhengy baki li ko hatado (abhi thory time k liye hum li ko comment kr dengy)
+12.	ul ko id de dain “todolist”
+13.	in JS, var banalo todolist and get id kr k ul ko hasil krlo, ab hum us li ko JS main create krengy by using JS only.
+
+
+UPER JO SIMPLE HTML SE BANAYA THA WE ARE GOING TO MAKE THAT WITH JS ONLY BY DOCUMENT.GET:
+
+1.	var banalo for list item then create element phir sari classes dedo. Ab usky ander k sry elements banao by createElement and then aisy hi pura li wala tag create krlo phir sabko append krdiya accordingly.
+2.	Ab ek function banao addtodo k name se usmain hum add krwaya krengy is function k liye div k span main event lagega onclick.
+3.	<span onclick = “addtodo”></span>
+4.	Ab yeh function chal raha ha ya nahi yeh hum aisy check krengy k browser pe ja kr us span k element ko click krengy toh (num console.log in function) ki wajah se run ana chahiye.
+5.	Ab is function main var banao name uska input element ki id wala hi rakhdo, wahan document.getelementbyid(“todo input”) lelo and getelememntbyid (“ “).value is .value ki madad se user jo bhi input dega wo ajayega.
+6.	Toh is tarha is function main user ki di hui inputs ajayegi. Ek console.log laga kr check krty jao ul (todo input)
+7.	Ab dekho jab bhi hum kuch input user se hasil karain toh hamain chahiye k ek li create ho toh hum li wala code utha kr is function main dhal dengy uper jo banaya tha. Phir span and button bhi usky nechy dhal do ku k hamain wo bhi chahiye.
+8.	Todo list jo top pe thi usko bhi ander dhal do.
+9.	Ab dekho hamary span pe (an item) likha hua hai lekin hamain wo show krwana hai jo user dega toh hum yeh krengy k textofspan = document.createTextNode(todoinput) yahan todo input waly var ko likh dengy name.
+
+
+AB AFTER TODO INPUT FIELD KHALI KRWANA:
+
+In function’s end:  document.getelementbyid(“todoinput”).value = “ “ 
+Is tarhan todo input field khali hojayegi
+
+MARK AS DONE SE DELETE:
+
+1.	Buttonofli tha na usky nechy likho
+2.	Buttonofli.setAttribute(“onclick”, “tododone”);
+3.	Ab ek naya function banao function todo done k name se.
+4.	Uper onclick wali line main tododone(this) and function main (abc) lagado ….. bus this and abc lagado
+5.	In function: abc.parentnode.remove();
+
+
+
+DONE KRNY PE TEXT PE CUT AJANA AISA:
+
+1.	Hamain chahiye hai k jab hum butto pe click kren toh span k ander jo hai wo cut jaye.
+2.	Ab krna yeh hai BS se font weight wohi jagah se cut class utha li and 
+3.	Abc.previoussibling.setSttribute(“class”, “BS KI CLASSNAME”)

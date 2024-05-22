@@ -1,0 +1,12 @@
+hum nav ka tag lagayengy and usmain li ka tag lagayengy jitny links/sections banany hain 
+un li k ander ab hum anchor tags dhal dengy and
+
+<nav>
+    <li><a href="#firstsection">first section </a></li>
+    <li><a href="#secondsection">second section</a></li>
+    <li><a href="#thirdsection">third section</a></li>
+</nav>
+
+<div id="firstsection" style="height: 500px; background-color: blueviolet;">first section</div>
+<div id="secondsection" style="height: 500px; background-color: blue;">second section</div>
+<div id="thirdsection" style="height: 500px; background-color: brown;" >third section</div>

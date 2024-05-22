@@ -1,0 +1,25 @@
+
+INLINE ELEMENTS:
+•	image
+•	i , em
+•	b , strong
+•	u 
+•	small
+•	sub, sup
+•	abbr
+•	a
+•	cite
+•	q
+•	span
+
+
+BLOCK ELEMENTS:
+•	h1 – h6
+•	p 
+•	div
+•	blockquote
+•	list se related sary (ul, ol, dt, dl, dd
+•	sectioning waly sary (nav, section, foot, header, aside)
+•	hr, br
+•	table se related sary
+•	name

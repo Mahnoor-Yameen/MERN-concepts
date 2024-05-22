@@ -1,0 +1,9 @@
+FILE STRUCTURING:
+
+jab html css js ki web banayangy tab hum main folder main hamesha 4 folders banayengy:
+•	images
+•	stylesheets
+•	scripts
+•	htmls
+•	only index bahar hogi
+

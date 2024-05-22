@@ -1,0 +1,8 @@
+class banti hai . se
+id banti hai # se
+
+.xyz { curly }
+#one { curly }
+
+
+class repeat hoti hai, id repeat nahi hoti

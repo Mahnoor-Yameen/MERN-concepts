@@ -1,0 +1,19 @@
+npm i react-jwt
+import decodeToken from react-jwt in App.jsx ya jahan bhi token decode krna chaho
+
+
+ek function banalo for decoding token
+
+const Decoding = (EncodedToken)=>{
+  if(!EncodedToken){
+    return undefined
+  }
+  else{
+    
+    const DecodedToken= decodeToken(EncodedToken)
+console.log("inside decoding function Decoded token",  DecodedToken)
+    return DecodedToken?.Role
+  }
+}
+
+ab isko use krlo wherever you want

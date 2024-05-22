@@ -1,0 +1,4 @@
+EQUALS:
+•	=  assign
+•	== checking operator
+•	=== checking operator and it also checks Data Type

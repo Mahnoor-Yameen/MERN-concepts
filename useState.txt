@@ -1,0 +1,24 @@
+useState ek react hook hota hai. isko hum aisy use krty hain :
+
+const [ square ] = usestate ( round )
+const [ variable, changer variable ] = usestate ( 0, "string", [array] )
+
+agar hamain variable ki value ko change krna ha toh hum changer variable ki madad se krengy.
+
+
+
+
+
+
+
+
+                                                   EXAMPLE OF COUNTER:
+
+
+const [a,b] = useState(0);
+
+const increase = () => {   b ( a+1 )  }
+const decrease = () => {   b ( a-1 )  }
+
+
+ab html code main simple sa ek onclick laga kr coding krlena.

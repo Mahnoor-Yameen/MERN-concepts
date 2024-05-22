@@ -1,0 +1,31 @@
+arrayName.filter(   ()   =>  code  )
+
+
+array filter main jo image dengy wo delete krwa dega array se
+
+----------------------------------------------------------------------------------------------------
+filter new array create krta ha jo hamary function se pass hoty jaty hain 
+
+------------------------------------------------------------------PRODUCT IMAGE ARRAY
+
+initially array emprty tha
+jaisy hi onchange main user image file deta wo set k zariye image array main chali jati
+ab array main wo wo images hain jo user ne di hui
+ab jaisy hi user double click krega tab ek function chal raha
+wo function wo wali image le raha jis div pe double click kiya
+ab set k zariye hum filter krwa rhy
+set se hum image array update krwa rahy
+image array main jo bhi pics hain wo set ki madad se filter hongi 
+
+value = single image, double click jispe kiya
+
+onDoubleClick={()=>{setProductImageArray(ProductImageArray.filter((AllImgs)=> AllImgs != value   ))}}
+
+filter ho rahi, jo all images hain array main, each goes from a condition
+
+condition: 
+TRUE: Array image agar same nh ha DCI k 
+FALse: Array image agar DCI k jaisi ha toh yeh false hojayega
+
+jo jo true hongi wo image array main jati jayengi set ki madad se 
+jo false hongi yani wo image jispe double kiya wo array k ander se match hogyi toh wo image array se filterout krdi jayegi

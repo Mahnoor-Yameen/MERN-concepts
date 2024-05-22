@@ -1,0 +1,58 @@
+   <!-- FIELDS   AND   FORM -->
+
+
+    <!--     action="/submit-form"   action yeh batata ha k form ka data kis URL pe bhejna ha -->
+<form action=""  onsubmit="functioncall()">
+
+    <!-- label hoti ha jo hum khali field of box k sath name likhty ----   for main input id dhali jati hai -->
+    <label for="name">NAME:</label>
+
+    <!-- input means khali field  -->
+    <input type="text" name="" id="name" placeholder="by default likha hua">
+
+</form>
+
+-----------------------------------------------------------------------------------------------
+
+VALIDATION:
+
+<!-- validation means applying strictions k kaisa data chahiye user se it is done by PATTERN & TITLE -->
+<!-- [type]      {    no of alphabets allowed }   -->
+<!-- title will be displayed if the input is not valid -->
+    <form action="">
+
+
+<label for="emailid">EMAIL</label>
+<input type="text" name="" id="emailid"  pattern="[A-Z]{3}" title="three letter country code">
+
+    </form>
+
+-----------------------------------------------------------------VALUE
+
+<form className="flip-card__form" onSubmit={SignupUser}>
+                                    <input
+                                        className="flip-card__input"
+                                        placeholder="Name"
+                                        type="name"
+                                        value={Username}
+                                        onChange={(e) => setUsername(e.target.value)}
+                                    />
+
+
+yeh value attribute ka matlab hai k jab form first time khulega toh form ki us field main kya likha hoga Iska matlb hai ke jab page load hota hai, input field mein UserName variable ki value set hoti hai.
+
+
+-------------------------------------------------------------------------e.target.value
+
+e short form k liye likhty for event
+target means 
+value means k jo user ne likha 
+
+ onChange={(e) => setUsername(e.target.value)}  
+  
+means jaisy koi change aya toh yeh function run hua
+is function main parameter k torr per (e) gaya 
+is (e) k ander ek OBJECT hai jisky ander bohot sary keyValues hain
+us bohot kuch main, ek item hai :    value: "user given thing"
+
+toh hum basically yen kr rahy hain k setusername main object ka ek item item ki value bhijwa rahy

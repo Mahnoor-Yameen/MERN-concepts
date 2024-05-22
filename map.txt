@@ -1,0 +1,18 @@
+--------------------------------------------------------------SYNTAX
+{ array.map ( () => () ) }    round and round
+ 
+
+--------------------------------------------------------------step 2
+{ array.map ( (value, index) => () }        
+
+pehla value hoti hai jo array se each index pe data hota
+second pe index no hota hai
+
+--------------------------------------------------------------step 3
+{ array.map ( (value, index) => (  
+
+<tag  key = {index}>  CODE </tag>      jo main element hota hai usko key dena zrori hai phir usky ander value. kr k jo bhi krna chaho krlo
+
+ )
+
+)

@@ -1,0 +1,11 @@
+API name ka folder banta
+
+usmain har tarhan ki api ke folders banalo and each folder will have 3 files model.js   controller.js   router.js
+
+
+index.js main likhengy:
+
+app.use("/api", require("./API/svgname/Router"))
+
+/api toh lazmi dengy
+require se hum import krwaty us API ki router file

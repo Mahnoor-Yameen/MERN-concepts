@@ -1,0 +1,43 @@
+display: flex;
+
+sirf display flex krny se hi apky saary childs line wise ajayengy jo pehly list k jaisy thy.
+
+
+now we have many techniques: 
+
+------------------------------------- Flex Grow
+flex grow childs main lagta hai
+
+flex grow ek had tak bara rehny dega lekin jab jagah choti paregi toh wo sabko equal krdega.
+
+1 means equal share
+2 means double share as compare to other childs
+
+ek tarha se jitna number dengy wo utny column ghair lega
+
+--------------------------------------- flex shrink
+
+yeh childs pe lagta ha.
+
+.container {
+  display: flex;
+}
+
+.item {
+  border: 2px solid #333;
+  padding: 20px;
+}
+
+.item1 {
+  flex-shrink: 1; /* Default value, can shrink */
+}
+
+.item2 {
+  flex-shrink: 0; /* Cannot shrink */
+}
+
+.item3 {
+  flex-shrink: 2; /* Can shrink twice as much as item1 */
+}
+
+-------------------------------------------------justify content and align items

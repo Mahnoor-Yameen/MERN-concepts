@@ -1,0 +1,8 @@
+  const DeleteCategory = (CategoryName)=>{
+console.log(CategoryName)
+    axios.delete("http://localhost:1234/api/delete-category",{data:{CategoryName:CategoryName}})
+    .then((success)=>{setCategories(success.data.AllCategories
+    )})
+     .catch((error)=>{console.log(error)})
+
+  }

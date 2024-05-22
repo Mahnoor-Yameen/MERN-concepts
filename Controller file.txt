@@ -1,0 +1,22 @@
+----------------------------------------------------------------IMPORTS
+
+const {ModelOfCategory} = require('./Model')                        //model mungwty hain 
+const {connect} = require('mongoose') // db connect krny k liye 
+require('dotenv').config()    // for mongodb URL
+
+-------------------------------------------------------------ARROW FUNCTION 
+
+
+yeh function async k sath hota ha taky hum jahan jahan chahin rukwa sakain
+
+const CreateCategory = async (req, res) => {
+}
+
+
+
+---------------------------------------------------------EXPORTS
+
+
+yeh sary arrow functions export bhi krwaye for router file k usko maloom ho k kis RESTFUL API pe konsa function run krna ha
+
+ module.exports = {CreateCategory}

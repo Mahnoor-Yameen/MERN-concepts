@@ -1,0 +1,43 @@
+import === require
+
+
+const e = require('express')   // yahan humny express mungwali and store krdi ek variable m
+const app = e()                 // ek constant banaya and usmain us variable ko put kiya jismain express thi
+const port = 3000             // port batayi
+
+
+--------------------------------------------------GET------------------------------------------------
+
+
+This method is used to define a route for handling HTTP GET requests.
+
+app.get(  'when to run this get' , (sawal, jawab ) =>  {  jawab.send ("hello") }  )
+
+
+app.get (  '' ,  (round) => {curly}    )         //syntax
+
+.send means browser pe show krna 
+jawab is a variable by which we are sending our response
+
+
+It takes two parameters:
+The first parameter is the route path (in your example, '/'), which represents the URL path that the server will respond to.
+
+The second parameter is a callback function that gets executed when a GET request is made to the specified route. This callback function typically takes two parameters: req (request) and res (response). In your example, you've named these parameters sawal (question) and jawab (answer) respectively.
+
+Inside the callback function, you define what should happen when a GET request is made to the specified route. In your example, it sends the response 'Hello World!' when someone accesses the root URL ('/').
+
+---------------------------------------------LISTEN-----------------------------------------------
+
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
+
+
+
+app.listen ( port ,  () => {}  )            //syntax is same
+
+This method is used to start a server and make it listen for connections on a specified port.
+-------------------------------------------------------------------------------------------

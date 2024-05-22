@@ -1,0 +1,9 @@
+details tag k liye hum yeh krty hain k :
+
+details tag banao usky ander summary tag banao 
+
+<details>
+     <summary>  heading  </summary>
+     information
+<details>
+

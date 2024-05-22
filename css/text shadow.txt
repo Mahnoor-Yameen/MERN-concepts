@@ -1,0 +1,6 @@
+text-shadow; x y blur color;
+
+x = x axis main shadow utna agay chala jayega
+y = y axis main shadow utna nechy chala jayega
+
+blur =  0px = sharp si line     10px = pura text hi us color ka blur main ajayega     5px = perfect blurring

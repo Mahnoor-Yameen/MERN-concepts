@@ -1,0 +1,2 @@
+jab register kiya tab password ko hash kr k bheja yani password ko hash key k sath encrypt kr k bheja
+            await ModelOfUser.create({UserName: UserName, Email: Email, Password: await hash(Password, 12)})

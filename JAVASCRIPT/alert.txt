@@ -1,0 +1,5 @@
+ALERT:
+
+
+alert ( "hi! mahnoor you are beautiful " )
+only by applying the js file in the html file, this alert will show. Alert jab tak ok per click na karain tab tak nh gayab hoty.

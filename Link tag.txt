@@ -1,0 +1,10 @@
+BSIC CONCEPT OF LINK:
+
+Link tag lagega and usmain TO k attribute main jo path dengy wo uper www mai open hojayega us link pr click krny pe 
+ROUTING main humain zrori hai k wo path define karain k us path k milny pe konsa page open krwana hai
+
+
+
+DYNAMIC LINKING OF PAGES:
+
+

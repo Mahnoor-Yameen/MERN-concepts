@@ -1,0 +1,19 @@
+---------------------------------------------------------GENERATION in BACKEND
+token generate hota at login time
+                const tokenVar = sign(User, process.env.JWT_SECRET)
+
+  res.json({
+                    message:"user logged in successfully",
+                    token: tokenVar
+                })
+
+
+--------------------------------------------------------------WHEN WE HAVE TOKEN IN FRONTEND
+
+now jab hamara token hamary pass agaya in frontend 
+
+-----------------------------------------------------------------SAVING TOKEN IN CONTEXT
+
+now, yeh token hum context main save krwa dengy taky puri web main jahan chahin use krlain
+
+-----------------------------------------------------------------

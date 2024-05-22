@@ -1,0 +1,7 @@
+PROMPT:
+
+
+•	var namee= prompt("Hello Cutie ! Your Name Please")
+•	var namee=  +  prompt("Hello Cutie ! Your Name Please")
+•	Prompt by default takes string .
+•	The plus sign (+) in front of the prompt function is used to convert the input from the user into a number

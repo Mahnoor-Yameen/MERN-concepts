@@ -1,0 +1,10 @@
+get ki api main payload nh bhej sakty
+post ki api main payload bheja jata ha
+
+-------------------------------------------------
+
+req.body     POST api main use krty
+req.query     GET api main use krty
+
+
+login and signup dono POST ki api hoti

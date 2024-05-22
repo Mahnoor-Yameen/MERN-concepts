@@ -1,0 +1,14 @@
+VARIABLES:
+•	not start with number
+•	no reserved keyword can be used
+•	space not allowed
+Cases:
+•	mahnoorYameen   camel case
+•	MahnoorYameen     pascal case
+•	mahnoor-yameen   snake case
+•	this is a case sensitive language
+
+
+LOCAL AND GLOBAL VARIABLES/SCOPE:
+•	Global variable has global scopes, main function k ander hota. Not in a function, famous in every section of code.
+•	It has local scope. Declared insde a function. It can be var, parameter.

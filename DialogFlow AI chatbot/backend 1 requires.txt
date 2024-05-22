@@ -1,0 +1,4 @@
+devkey file se session id k illawa sab mungwaya
+
+const { google_client_email,  google_private_key_id, google_project_id, df_private_key, } = require('./devkey');
+const dialogflow = require('dialogflow');

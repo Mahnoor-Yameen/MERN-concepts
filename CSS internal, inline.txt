@@ -1,0 +1,13 @@
+we gives internal css by using object
+
+--------------------------------------------------------------INTERNAL:
+style={objectNAME}
+
+return k uper:  
+ const objectNAME = {
+    backgroundColor: 'lightblue',
+    padding: '10px',
+    border: '1px solid blue',
+  };
+-------------------------------------------------------------INLINE:
+style={{backgroundColor:'#01F9C6 '}}

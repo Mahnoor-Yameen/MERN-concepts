@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <h1 style="text-align: center;"> ON FUNCTIONS </h1>
+    <ul>
+        <li>onfocus</li>
+        <li>onblur</li>
+        <li>onclick</li>
+        <li>onmouseover and onmouseleave<ul>
+                <li style="font-weight: bold; text-decoration: wavy;">usecases of onmouseover/onmouseleave:</li>
+                <li>
+                    <p>automatic cheezain khulti hain browser main jab kisi page pe jaty and wo hamain kahin dusry page
+                        pe le jata</p>
+                </li>
+                <li>
+                    <p>analytics time check</p>
+                </li>
+                <li>
+                    <p>ad sense</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+
+    <h1 style="text-align: center;">DEMOS OF ONMOUSEOVER AND ONCLICK: </h1>
+    <!-- onmouseover = "this.style.cssProperty = 'single comma'" -->
+    <p onmouseover="this.style.backgroundColor = 'red'" onmouseleave="this.style.backgroundColor='transparent'">
+        onmouseover and onmouseleave</p>
+
+    <!-- onclick -->
+    <p onclick="alert('single comma')">onclick</p>
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+
+    <h1 style="text-align: center;">PAGES:</h1>
+    <ul>
+        <li><a href="./form.html">
+                Forms and fields (no external JS file)
+            </a></li>
+        <li><a href="./validation.html">
+                validation (no external JS file)
+            </a></li>
+    </ul>
+
+
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+    <h1 style="text-align: center;">DOM PRACTICE:</h1>
+    <div id="mydiv">
+        <p>first p</p>
+        <p>second p</p>
+        <p>third p</p>
+    </div>
+
+    <div id="flower"></div>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+    <h1 style="text-align: center;">Browser And Windows:</h1>
+
+    <button onclick="changeURL()">change URL function </button>
+    <button onclick="Assign()">Assign function </button>
+    <button onclick="Replace()">Replace function </button>
+    <button onclick="Reload()">Reload function </button>
+    <button onclick="Forward()">Forward function </button>
+    <button onclick="Backward()">Backward function </button>
+    <button onclick="GoOnNumber()">Go On Number function </button>
+    <button onclick="NewPageCreation()">Blank Page </button>
+    <button onclick="NewPageCreationSMALL()">Blank Page SMALL </button>
+
+    <!-- -----------------------------------------------------ECMA SCRIPT 6------------------------------------------------------ -->
+    <h1 style="text-align: center; background-color: rgb(247, 196, 124);">ES6:</h1>
+
+    <!-- -----------------------------------------------------LOCAL STORAGE----------------------------------------------------- -->
+    
+    <h1 style="text-align: center;">LOCAL STORAGE:</h1>
+
+<form >
+
+    <label for="email">Please enter email address</label>
+    <input type="text" name="" id="email" placeholder="email@gmail.com" >
+
+    <br>
+
+    <label for="password">please enter your password</label>
+    <input type="text" name="" id="password" placeholder="Password">
+
+    <br>
+
+    <button type="submit" onclick="sendDataToLocalStorage()">submit</button>
+
+</form>
+
+<button  onclick="getDataFromLocalStorage()">Get item from local storage</button>
+<button  onclick="removeDataFromLocalStorage()">delete item from local storage</button>
+
+<!-- ------------------------------------------AJAX-------------------------------------------------- -->
+<h1 style="text-align: center;">AJAX:</h1>
+
+<p id="demo">here we load data</p>
+<button onclick="loadData()">click to load data function</button>
+
+
+<!-- ------------------------------------------FETCH--------------------------------------------------- -->
+
+<div id="fetchcode"></div>
+<!-- --------------------------------------------PURE HTML-------------------------------------------------------- -->
+<hr>
+<br>
+<a href="/purehtml.html">HTML PAGE and basic intro classes</a>
+<br>
+<!-- ----------------------------------------------PURE CSS------------------------------------------------------ -->
+
+<hr>
+<br>
+<a href="purecss.html">HTML PAGE and basic intro classes</a>
+<br>
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+    <!-- <script src="./alertPrompt.js"></script> -->
+    <!-- <script src="./ifElse.js"></script> -->
+    <!-- <script src="./array.js"></script> -->
+    <!-- <script src="./loop.js"></script> -->
+    <!-- <script src="./defaultFunctions.js"></script> -->
+    <!-- <script src="dateTime.js"></script> -->
+    <!-- <script src="function.js"></script> -->
+    <!-- <script src="switch.js"></script> -->
+    <!-- <script src="dom.js"></script> -->
+    <!-- <script src="object.js"></script> -->
+    <!-- <script src="constructor.js"></script> -->
+    <!-- <script src="browserAndWindows.js"></script> -->
+
+    <!-- ---------------------------------------ES6---------------------------------------------------------------- -->
+
+<!-- <script src="ES6Variable.js"></script> -->
+<!-- <script src="ES6Function.js"></script> -->
+<!-- <script src="ES6Object.js"></script> -->
+<!-- <script src="ES6IfElse.js"></script> -->
+<!-- <script src="ES6RestAndSpread.js"></script> -->
+<!-- <script src="ES6Storage.js"></script> -->
+
+<!-- -------------------------------------------------------EXTRAS----------------------------------------------- -->
+
+<!-- <script src="promise.js"></script> -->
+<!-- <script src="asyncAwait.js"></script> -->
+<!-- <script src="ajax.js"></script> -->
+<!-- <script src="fetch.js"></script> -->
+<script src="map.js"></script>
+
+
+</body>
+
+</html>

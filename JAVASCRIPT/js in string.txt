@@ -1,0 +1,5 @@
+// backtick
+// dollar sign with curly bracket:    ${}
+// backtick k ander jitni spaces dengy utni hi dikhengi
+
+console.log(`my name is ${object.a}`)  //output: my name is mahnoor

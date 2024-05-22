@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------------------
+router file main pehly express mungwaty ek const main
+ab us express main se express.Router() munwgwalety hain.
+
+---------------------------------------------------------------------FORMAT:
+
+const {jo chez mungwani, agar ek chez ha toh no bracket needed} = require ('jahan se mungwani')
+
+-------------------------------------------------------------------------------------------
+ab controller file main jo functions banaye huay hain wo require se import krwli 
+
+
+---------------------------------------------------------------------PATH
+ab jis variable main Router munwaya tha wo variable use hoga
+
+variable.put/get/post/delete(  "/path" , function name from controller )
+
+yani wo path koi call krega toh controller ka woh function run hojyega
+
+-------------------------------------------------------------------exporting
+
+module.exports = router
+
+yani is module se exports krdo router wala pura variable

@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+   <FloatingLabel  label="Select Category">
+              <Form.Select aria-label="Please Select a Category" onChange={(e) => setAdCategory(e.target.value)}>
+                <option>Please Select a Category</option>
+                {
+                  AllCategories?.map((value, index) => <option key={index} value={value.CategoryName}>{value.CategoryName}</option>)
+                }
+              </Form.Select>
+            </FloatingLabel>

@@ -1,0 +1,4 @@
+import functionName from path
+
+then we gets the function made in that file, that file contains a function with return statement and export word because we want to use that function  in other file.
+

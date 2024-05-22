@@ -1,0 +1,7 @@
+const funcName = async () => {
+
+try {}
+catch (whatever comes from try if try don't works) {}
+
+
+}

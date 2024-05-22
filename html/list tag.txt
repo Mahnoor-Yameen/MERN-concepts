@@ -1,0 +1,11 @@
+sab se pehly list type select krty:
+
+ol   ordered list
+ul   un ordered list
+dl   definition list
+
+ab in list k ander item k liye li lagado
+
+definition list thori alag hoti hai.
+
+dl >>  dt  >>  dd

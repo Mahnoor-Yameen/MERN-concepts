@@ -1,0 +1,52 @@
+IMPORTS:
+import { BiSolidCategory } from "react-icons/bi";
+
+
+
+ABOVE RETURN:
+
+const etc = [    array
+
+
+yahan jitny chaho {objects banado} 
+
+]
+
+example:
+
+const etc = [
+
+
+{
+      tab   :    "show krwany wala name",
+      url   :    "wo path jo www mai dikhega /category",
+      icon  :    <BiSolidCategory style={{ color: "black" }} />
+}
+
+
+]
+
+
+INSIDE RETURN:
+
+
+steps:
+ek ul banao
+usmain etc.map krwado
+ab map k ander li banado, li ko key index de dena
+ab inside li, make Link tag, Link tag ka to bhej dena val.url ko
+
+
+
+
+
+NOTE:
+
+yeh chez react router ki taraf se given hoti ha 
+
+The location.pathname specifically represents the path portion of the current URL. For instance, if your URL is 
+
+https://example.com/myapp/users
+
+
+, location.pathname would be /myapp/users.

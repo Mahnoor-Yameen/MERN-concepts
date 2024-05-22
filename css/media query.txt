@@ -1,0 +1,26 @@
+tareeka to create responsive design
+
+we have a specific media query to run:
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    nav {
+        background-color: blue;
+    }
+}
+
+
+/* 769px — 1024px: Small screens, laptops. */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        background-color: green;
+    }
+}
+
+/* 1025px — 1200px: Desktops, large screens. */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    nav {
+        background-color: yellow;
+    }
+}

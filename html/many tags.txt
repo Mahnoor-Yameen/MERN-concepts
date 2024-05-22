@@ -1,0 +1,36 @@
+<small> </small>     thora small text ata hai as compared to p, used for privacy policy and info purpose
+
+<em> </em>      emphasize/italic etc to give focus on something
+
+<strong> </strong>    to give focus / bold
+
+<del> 200 </del>   price = 200(is 200 pe cut lag jayega)
+<ins> 100 </ins>     price = 200 (cutted)  100
+
+we uses it specifically for browser:
+
+<sub> </sub>    chota ajata nechy
+<sup> </sup>    square k jaisa chota ajata lekin uper
+
+<blockquote> </blockquote>      center main ajayega likha hua
+
+<blockquote  cite = "URL" > </blockquote>    is se original author ko reference milega
+
+<q> </q>     is se comma lag jayega
+
+<abbr title = "hover detail" > main </abbr>    jab user main pe hover krega toh hover details ajayengi
+
+<addresss> </address>   yeh tag hum browser k liye use krty hain taky jab hum search karain toh browser address tag dhund kr address show krdy
+
+<bdo  dir = "rtl" >  </bdo>   right to left read krwana urdu k liye for browser
+
+body tag main dir = "left" krdo toh sara content urdu ki form main ajayega
+
+<iframe  src = " " > </iframe>    to show other's content on our website just like article etc.
+for example: map:   share >> embedd >>  copy link >> paste in VS
+
+<marquee behavior = " up/ left / right " direction = " " > pakistan </marque>
+
+GT metric website: performace wagera ab check kr k batata : yahan ja kr humain web ka link dena hota hai.
+
+section, header, footer, aside, a, div, p, 

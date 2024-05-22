@@ -1,0 +1,17 @@
+border: 2px solid red;
+
+hum alag alag se bhi de skty thy
+
+border-color : ;
+border-size: ;
+border-width: ;
+border-style: ;
+
+
+RADIUS:
+
+border-radius : ;
+border-top-left-radius: ;
+border-top-right-radius: ;
+border-bottom-right-radius: ;
+border-bottom-right-radius: ;

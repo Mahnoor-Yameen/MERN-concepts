@@ -1,0 +1,55 @@
+MAIN STEP: display: grid;
+
+
+
+-------------------------------------------------------------INTRODUCTION---------------------------------------------------
+grid main hum jitni chahain rows and columns bana skty hain:
+space between row and column s called gutter
+hum jab parent ko grid banaty hain toh simply phir grid properties child pe bhi use kr sakty.
+
+
+
+----------------------------------------------------------COLUMN CREATION--------------------------------
+
+ab jitny columns banany hain bana lo:
+
+
+METHOD 1:
+
+grid-template-columns: 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px;
+grid-template-rows: 133px 133px 133px;
+
+METHOD 2:
+
+grid-template-columns: repeat(10, 1fr);  // repeat (no of boxes,  1fr means equal sized boxes hongy) 1fr = auto adjuster
+
+METHOD 3:
+
+grid-template-columns:  1fr 1fr 1fr;           3 columns ban jayengy of equal size  agar kis ko 2 fr dengy toh wo ratio wise 2 box ki jagah lega
+
+
+METHOD 4:
+
+grid-template-column : repeat (auto-fill, minimax (200px, 1fr )   
+auto-fill : decide krny wala k width k hisab se kitny column asakty
+1fr: it tells each column will have equal width
+200px: minimum width of one column should be 200px 
+
+-------------------------------------------------------------START and END--------------------------------------------------
+
+START and END ka options:
+
+grid-column-start : auto / 2 / -1 / span 2 ; 
+
+
+---------------------------------------------------------------AUTO-------------------------------------------------
+
+grid-auto-columns: n px ;
+grid-auto-rows: n px ; no of pixel of height of child box.
+
+then content overflow hojayega ku k height fix de di  TO FIX:
+grid-auto-rows: minimax (100px, auto) ;  (height le raha) 
+grid-auto-columns: minimax (100px, auto) ;  (width le raha) 
+
+content ziada hua to woh automatically bara hojaega because auto lagaya hua hai.
+

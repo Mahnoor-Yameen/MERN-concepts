@@ -1,0 +1,20 @@
+yeh ek temperory object banaty hain hum mostly in form functions
+form se aya hua data hum ismain rakh kr backend pe bhej dety hain 
+
+
+  const [UserName, setUserName]= useState("")
+  const [Email, setEmail]= useState("")
+  const [Password, setPassword]= useState("")
+
+  const RegisterUser = (e)=>{
+    e.preventDefault();
+
+    // yeh jo keys hain wo keys banengi and jo values hain wo useState wali hain jo k humny onchange se set krwayin
+    const payload = {
+      UserName: UserName,
+      Email: Email,
+      Password: Password
+    }
+    console.log(payload)
+
+  }

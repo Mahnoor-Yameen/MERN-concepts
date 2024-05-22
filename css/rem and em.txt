@@ -1,0 +1,13 @@
+-------------------------------------------------------------------em
+
+apny se uper waly se multiply krwana.
+jispe em hoga wo uper waly se multiply hojayega
+if default has 16 and we gave parent to 5 and child to 10 toh     (16 * 5 *10 = 800 px total)
+
+jis jisko em dengy wo apny uper waly se ek bari multiply hoga
+
+--------------------------------------------------------------------------------------REM
+
+jis jisko rem dengy wo browser defaullt se * krdega apny khud ke font size ko.
+
+

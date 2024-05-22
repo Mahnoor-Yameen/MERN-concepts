@@ -1,0 +1,12 @@
+------------------------------------------------------------------------RATING
+
+initialy rating 0 bihjwa rahy by usestate ku k backend rating mang raha ha, admin rating nh dega
+
+
+------------------------------------------------------------------REVIEW
+
+admin review nh dega initially
+ku k review customers ne deny hain
+
+
+-------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,51 @@
+---------------------------------------------------------------------      position: static;   -------------------------------------------------------------------------
+
+// normal   ismain top left right bottom nh kr sakty
+by default hi hoti hai so no change according to dom
+
+
+----------------------------------------------------------------------       position: relative; ------------------------------------------------------------------------
+
+ // normal   ismain hamain top bottom left right allowed hota hai  thora sa agay pechy jo krna hota ha woh
+it is relative to its normal position. 
+purani position, jahan se wo move hua hoga wahan gap ayega
+-------------------------------------------------------------------         position: fixed : --------------------------------------------------------------------------------
+
+
+jahan hum laga dain, phir wo wahin rehta is commonly used for elements like navigation bars, headers, or advertisements.
+wo box udher fix hojayga even if we scroll
+example:
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}               // ab duniya idher ki udher hojaye, yeh viewport k hawaly se idher hi rahegi
+
+even if we scroll, the element would remain at the same place on viewport.
+matlab pechy page pe jo bhi hoga woh is se override hojayega just like (chatus)
+
+-----------------------------------------------------------------          position: absolute; -------------------------------------------------------------------------------------
+
+gap nahi dega apni purani position wala. relative to its first parent agay pechy uper nechy hoga. 
+left jitni px dengy wo apny parent se utni px door hojayega
+ // Jab aap position: absolute; ko CSS mein set karte hain, to aap browser ko batate hain ki element ko document flow se hata kar uske parent element ke saath relative position mein rakha jaye ya phir agar parent element relative position nahi rakhta hai, to body ya phir koi aur containing block ke saath position kiya jaye. Iska matlab yeh hota hai ki element ki position viewport ya containing block ke relative hogi. 
+
+scroll krny pe page jitna scroll hota jata hai wo element bhi uper nechy scroll hota hai
+
+agar hum kisi child element ko absolute dety hain toh uska parent phir consider krta hai k that child doesn't exist anymore phir wo child element t/b/r/l respond krta hai according to dimension of document no parent. to oversome it k child parent k according chaly toh parent ko position relative de do.
+
+-----------------------------------------------------------------------   position: sticky ;----------------------------------------------------------------------------------------
+
+position: sticky; ek CSS property hai jo element ko scrollable container ke andar ek "sticky" behavior deta hai. Jab aap position: sticky; ka istemal karte hain, to element normal document flow mein rehta hai jab tak yeh scrollable container ke bounds ke andar rehta hai. Jab scrollable container ki boundaries ke bahar jata hai, to yeh apni position ko maintain karta hai aur screen ke edge ke najdik ruk jata hai, jaise ki fixed position element.
+
+work only on condition, yeh particular condition k true hony per hi hogi, yani top : 2px ; de diya farz karo toh jab yeh element top se 2px door pe ajayega toh yahan fixed hojayega.
+heading ko sticker kr k article k liye use hota.
+
+
+d/b sticky and fixed:
+
+sticky will be fixed only till the end of the container
+
+fixed will be fixed until the end of the web page

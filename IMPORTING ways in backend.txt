@@ -1,0 +1,10 @@
+-----------------------------------------------------way 1
+
+const { variable/Anything that already exists somewhere} = require ( ' location where the variablle is ' )
+const {CreateCategory} = require('./Controller')
+
+
+---------------------------------------------------way 2 
+
+const CustomVariable = require (' the pakage or anything you want to come entirely ' )
+const express = require('express')

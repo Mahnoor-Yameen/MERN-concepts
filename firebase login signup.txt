@@ -1,0 +1,22 @@
+
+IN GOOGLE:
+
+1. firebase pe new project banalo
+2. buid authentication
+3. abhi k liye sirf email password authentication enable kiya bad main authentication by google bhi kr sakty
+4. project overview pe setting button dikh raha hoga click on it >> project setting >> add app 
+5.
+
+
+
+
+
+
+
+
+IN FRONTEND CODE:
+
+1. create a folder named firebase
+2. inside that folder create firebaseConfig.js
+3. inside that SDK code copy paste krdena hai
+

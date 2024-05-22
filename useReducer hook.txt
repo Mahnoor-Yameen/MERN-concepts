@@ -1,0 +1,9 @@
+-----------------------------------------------------INTRODUCTION
+it is very similar to useState in terms of syntax
+used inside context file
+ DISPATCH MEANS SETSTATE JUST LIKE USESTATE
+
+--------------------------------SYNTAX  
+
+//const [state, setstate/dispatch] = userReducer(function containing all cases, initial data)
+const [state,dispatch]=useReducer(loginreducer, data)

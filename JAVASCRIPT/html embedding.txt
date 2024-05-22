@@ -1,0 +1,2 @@
+HTML EMBEDDING:
+<script src="./promise.js"></script>

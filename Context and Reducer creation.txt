@@ -1,0 +1,61 @@
+-----------------------------------------------------------INTRODUCTION
+
+context hum isliye create krty hain k koi variable ya chez hum apni puri website pe access krwa sakain just like a brain to the body.
+reducer
+
+
+---------------------------------------------------------HOW TO CREATE CONTEXT
+
+1. IMPORTING:
+import { createContext } from "react";
+-------------------------------------------------
+2. EXPORTING THE CONTEXT VARIABLE:
+export const logincontext=createContext("initial value")
+and now rfc se function banalain
+------------------------------------------------
+3. PROVIDING INSIDE RETURN:
+
+ <logincontext.Provider value={{state,dispatch}}>
+        {children}
+    </logincontext.Provider> 
+
+
+1) yahan pe logincontext.Provider se humny context bhej diya sab jagah pe,jis name ka context banaya hota ha ushi name ko name.Provider krty yani batatay k yeh wala context phelana ha      
+2) value k ander jo chez likhi jati ha basically wo accessible hoti ha har jagah pe.
+3)  when you write {children} inside <LoginContext.Provider>, you're essentially saying: "Render whatever content is provided as children here."
+----------------------------------------------------
+4. INSIDE MAIN.JSX:
+
+1)import krwao wo function name jo context.jsx file main hoga rfce wali command se aya hua from "path of context.jsx file" like import LoginContextProvider from './GlobalContext/context.jsx'  
+          
+2)App.jsx ko wrap krwana ha  us function name se jo abhi uper import krwaya:
+<LoginContextProvider>
+ <App />
+ </LoginContextProvider>       
+
+------------------------------------------------------------------USING OF CONTEXT IN WEBSITE
+
+1) import krwaty hain wo variable jiska context hai 
+import { logincontext } from './GlobalContext/context'
+2)import krwalo useContext hook from react
+3) // const {jo jo use krna ha us context main se} = useContext(context variable name )
+const {login_state, login_dispatch}= useContext(LoginContextVariable)
+
+-------------------------------------------------------------------HOW TO CREATE REDUCER(no RFC)
+
+export const loginreducer=(state,action)=>{                         // ziada acha yeh rehta hai k hum login_state likhty
+    switch (action.type) {
+        case "LOGIN_USER":
+            return {...state, token:action.token}  
+            
+        case "LOGOUT":
+            return{...state,token:null}
+
+        
+        default:
+            return state;
+    }
+}
+
+in reducer we creates switch for different cases
+inside context file we will import it like: import { loginreducer } from './reducer'
